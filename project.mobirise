@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-27_0456",
-    "currentPage": "contact us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -25,7 +25,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.1",
     "siteFonts": [],
-    "uniqCompNum": 85,
+    "uniqCompNum": 81,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png",
     "customCookies": {
@@ -86,13 +86,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -115,7 +115,7 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -205,14 +205,13 @@
           "_anchor": "header3-1l"
         },
         {
-          "_inherit": "features3",
           "_params": {
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "paddingTop": "0",
+            "paddingTop": 2,
             "paddingBottom": 2,
             "columns": "3",
             "bgImageRadio": false,
@@ -229,78 +228,71 @@
             "overlayOpacity": 0.5
           },
           "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "linkInNewWindow": false,
-              "name": "desktop",
-              "family": "et-line",
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/professional-web-design-108x110.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
               "link": "",
-              "size": 0
+              "alt": "",
+              "title": ""
             }
           },
           "media2": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logodesign-150x150.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "mobile",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media3": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/target-small-111x110.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "pencil",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
           "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
           "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "title1": "WEB DESIGN\n",
+          "title1": "WEB DESIGN<br>\n",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "We are passionate about making beautiful and functional websites for every client. Our specialty is on working with you to develop a website strategy so that your website not only looks great, but works great too.",
-          "title2": "LOGO DESIGN\n",
+          "caption1": "Professional and affordable websites from a team you can trust.<br>",
+          "title2": "LOGO DESIGN<br>\n",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "A professionally designed custom logo will set your business apart. Don't settle for any old graphic when it comes to your business. Set yourself up for success with unique, custom artwork.",
-          "title3": "SEO SERVICES\n",
+          "caption2": "A custom logo design from Sumy Designs can help establish your business's brand.<br>",
+          "title3": "SEO SERVICES<br>\n",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Having a professional website created is the first step to online success, but just because you have a website doesn't mean anyone will find it. We can help your website get found in the search engines.",
+          "caption3": "We can help the search engines find your pages and get them in front of your audience.<br>",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
@@ -310,24 +302,26 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">OUR PROCESS</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">OUR LOGO PORTFOLIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">FIND OUT MORE</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_name": "features6",
-          "_anchor": "features6-1m"
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2f"
         },
         {
-          "_inherit": "features3",
           "_params": {
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": 2,
             "columns": "3",
             "bgImageRadio": false,
@@ -344,77 +338,71 @@
             "overlayOpacity": 0.5
           },
           "media1": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ppc3-110x110.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "desktop",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media2": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/copywriting-1-150x150.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "mobile",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media3": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/maintenance-small-110x110.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "pencil",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
           "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
           "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "title1": "ONLINE MARKETING\n",
+          "title1": "<div><span style=\"background-color: initial; color: inherit; font-size: 1.25rem;\">INTERNET MARKETING</span><br></div>",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "SEO is a marathon, but online ads are a sprint. You can start getting found online today with pay-per-click ad campaigns. Our team is certified to run Google AdWords, Facebook, and Bing campaigns.\n<br>",
+          "caption1": "Our certified team can run ad campaigns on Facebook, Google, Bing and Twitter.<br>",
           "title2": "COPYWRITING",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "What you say is as important as how your site looks. Words are important. Not only do they help your site get found in the search engines, but they help your clients understand your business and your services.\n<br>",
+          "caption2": "The words you use are as important as the images and design on your website.<br>",
           "title3": "WEBSITE SUPPORT\n",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Your website needs ongoing care to perform at its best. Don't make the \"set it and forget it\" mistake. Let us do the hard work while you run your business. We make managing your website easy.\n<br>",
+          "caption3": "Your website needs care and support to perform at it's best.<br>",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
@@ -424,14 +412,17 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">GET SUPPORT</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_name": "features6",
-          "_anchor": "features6-1n"
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2g"
         },
         {
           "_params": {
@@ -444,7 +435,12 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1p"
+          "_anchor": "content1-1p",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
         },
         {
           "_params": {
@@ -583,7 +579,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><b>Professional Web Design Services Developed Strategically for your Business</b></p><p><b>\n</b></p><p>Anyone can click and build a website. Having an online presence is not that hard. Having a good online presence takes work. We understand how people use websites. We know what they're looking for. We know proven strategies that make your website perform better than your competitors'. \n</p><p>\n</p><p>It's 2019, you can't just upload a template and expect it to reap you rewards. If you want your website to be competitive and convert visitors into leads, then you need an online presence that's built with a strategy. Your website should not only be attractive and professional, but planned with precision to increase leads and help your business grow.</p><p>\n</p><p>\n</p><p><b>We can help you answer the following questions:\n</b></p><p>\n</p><p><i>♥How will people find your website?\n</i></p><p><i>♥Is your website secure?\n</i></p><p><i>♥Is it mobile-friendly?\n</i></p><p><i>♥Is it fast? Can we make it faster?\n</i></p><p><i>♥What are people looking for?</i></p>",
+          "text": "<p><b>Professional Web Design Services Developed Strategically for your Business</b></p><p><b><br></b></p><p><b>\n</b></p><p>Anyone can click and build a website. Having an online presence is not that hard. Having a good online presence takes work. We understand how people use websites. We know what they're looking for. We know proven strategies that make your website perform better than your competitors'. \n</p><p>\n</p><p>It's 2019, you can't just upload a template and expect it to reap you rewards. If you want your website to be competitive and convert visitors into leads, then you need an online presence that's built with a strategy. Your website should not only be attractive and professional, but planned with precision to increase leads and help your business grow.</p><p><br></p><p>\n</p><p>\n</p><p><b>We can help you answer the following questions:</b></p><p><b><br></b></p><p><b>\n</b></p><p>\n</p><p><i>♥How will people find your website?\n</i></p><p><i>♥Is your website secure?\n</i></p><p><i>♥Is it mobile-friendly?\n</i></p><p><i>♥Is it fast? Can we make it faster?\n</i></p><p><i>♥What are people looking for?</i></p>",
           "_tags": [
             "Theme"
           ],
@@ -593,10 +589,10 @@
         {
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "text": "<p><b>A Professional Team You Can Trust\n</b></p><p>It can be really daunting to get started on a new website project with a company you don't know. How do you know if we're any good? How do you know if you can trust us? Since we work virtually, we can and do work with people all over the country. \n</p><p>\n</p><p><b>We're a team.\n</b></p><p>Working with us means working as a team. We collaborate with you to find the best solutions to your problems. We won't talk over you, confuse you with technical jargon, or make promises we can't keep. We'll always be straight with you about what your website needs and what it doesn't need, and we do it all professionally and reliably. You can count on us to be there for you every step of the way.\n</p><p>\n</p><p><b>We've been here for years.\n</b></p><p>We've heard the horror stories of people paying money to vendors and then having their developer just disappear on them. That makes us incredibly sad. It happens. How do you know it won't happen again? When you work with Sumy Designs, you are working with a web design company that's been in business for 13 years. That's a long time in this industry. \n</p><p>\n</p><p>This is also our full-time jobs. We're not freelancers working a side hustle for extra money. You can count on us to be available during business hours.\n</p><p>\n</p><p><b>Up front, no-surprise pricing\n</b></p><p>We'll create a custom proposal for your project and outline all the fees. You won't be surprised by additional fees or expenses midway through.</p>",
+          "text": "<p><b>A Professional Team You Can Trust</b></p><p><b><br></b></p><p><b>\n</b></p><p>It can be really daunting to get started on a new website project with a company you don't know. How do you know if we're any good? How do you know if you can trust us? Since we work virtually, we can and do work with people all over the country. \n</p><p>\n</p><p><b><br></b></p><p><b>We're a team.</b></p><p><b><br></b></p><p><b>\n</b></p><p>Working with us means working as a team. We collaborate with you to find the best solutions to your problems. We won't talk over you, confuse you with technical jargon, or make promises we can't keep. We'll always be straight with you about what your website needs and what it doesn't need, and we do it all professionally and reliably. You can count on us to be there for you every step of the way.\n</p><p>\n</p><p><b>We've been here for years.</b></p><p><b><br></b></p><p><b>\n</b></p><p>We've heard the horror stories of people paying money to vendors and then having their developer just disappear on them. That makes us incredibly sad. It happens. How do you know it won't happen again? When you work with Sumy Designs, you are working with a web design company that's been in business for 13 years. That's a long time in this industry. \n</p><p>\n</p><p>This is also our full-time jobs. We're not freelancers working a side hustle for extra money. You can count on us to be available during business hours.</p><p><br></p><p>\n</p><p>\n</p><p><b>Up front, no-surprise pricing</b></p><p><b><br></b></p><p><b>\n</b></p><p>We'll create a custom proposal for your project and outline all the fees. You won't be surprised by additional fees or expenses midway through.</p>",
           "_tags": [
             "Theme"
           ],
@@ -625,7 +621,7 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#222",
+            "overlayColor": "#000000",
             "overlayOpacity": 0.5
           },
           "title": "We don't just build websites... we build relationships.",
@@ -752,7 +748,7 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1063,7 +1059,7 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1272,13 +1268,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1301,7 +1297,7 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1398,7 +1394,12 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-15"
+          "_anchor": "content1-15",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
         },
         {
           "_params": {
@@ -1434,128 +1435,12 @@
           "_anchor": "header3-17"
         },
         {
-          "_inherit": "features3",
           "_params": {
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false,
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "columns": "3",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "linkInNewWindow": false,
-              "name": "desktop",
-              "family": "et-line",
-              "active": true,
-              "link": "",
-              "size": 0
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "mobile",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "pencil",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "title1": "WEB DESIGN\n",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "We are passionate about making beautiful and functional websites for every client. Our specialty is on working with you to develop a website strategy so that your website not only looks great, but works great too.",
-          "title2": "LOGO DESIGN\n",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "A professionally designed custom logo will set your business apart. Don't settle for any old graphic when it comes to your business. Set yourself up for success with unique, custom artwork.",
-          "title3": "SEO SERVICES\n",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Having a professional website created is the first step to online success, but just because you have a website doesn't mean anyone will find it. We can help your website get found in the search engines.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_name": "features6",
-          "_anchor": "features6-19"
-        },
-        {
-          "_inherit": "features3",
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "columns": "3",
@@ -1573,75 +1458,179 @@
             "overlayOpacity": 0.5
           },
           "media1": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/professional-web-design-108x110.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "desktop",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media2": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logodesign-150x150.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "mobile",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media3": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/target-small-111x110.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "pencil",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
           "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
           "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
             }
           },
+          "title1": "<br>WEB DESIGN<br><br>\n",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "We are passionate about making beautiful and functional websites for every client. Our specialty is on working with you to develop a website strategy so that your website not only looks great, but works great too.\n<br>",
+          "title2": "LOGO DESIGN<br><br>\n",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "A professionally designed custom logo will set your business apart. Don't settle for any old graphic when it comes to your business. Set yourself up for success with unique, custom artwork.\n<br>",
+          "title3": "SEO SERVICES<br>\n",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "<br>Having a professional website created is the first step to online success, but just because you have a website doesn't mean anyone will find it. We can help your website get found in the search engines.\n<br>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">OUR PROCESS</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">OUR LOGO PORTFOLIO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">FIND OUT MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "title1": "ONLINE MARKETING\n",
+          "_name": "features3",
+          "_anchor": "features3-2k"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ppc3-110x110.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/copywriting-1-150x150.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/maintenance-small-110x110.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "<br>ONLINE MARKETING<br>\n",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "SEO is a marathon, but online ads are a sprint. You can start getting found online today with pay-per-click ad campaigns. Our team is certified to run Google AdWords, Facebook, and Bing campaigns.\n<br>",
           "title2": "COPYWRITING",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "What you say is as important as how your site looks. Words are important. Not only do they help your site get found in the search engines, but they help your clients understand your business and your services.\n<br>",
-          "title3": "WEBSITE SUPPORT\n",
+          "title3": "<br>WEBSITE SUPPORT\n",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Your website needs ongoing care to perform at its best. Don't make the \"set it and forget it\" mistake. Let us do the hard work while you run your business. We make managing your website easy.\n<br>",
           "title4": "Unlimited Sites",
@@ -1653,28 +1642,34 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">GET SUPPORT</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_name": "features6",
-          "_anchor": "features6-1a"
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2l"
         },
         {
           "_inherit": "msg-box8",
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#000"
+            },
+            ".lead P": {
+              "font-size": "20px"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButton": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
             "parallax": true,
@@ -1700,7 +1695,7 @@
         {
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "2",
             "bgColor": "#fff"
           },
           "text": "<p>At Sumy Designs, we want your website to look great. We want it to attract new customers. And we want you to be able to manage it with ease. Basically, we want it to work for you. The success of your website is our top priority. We work with businesses big and small to create professionally designed websites that enhance your online presence and showcase you.\n</p><p>\n</p><p>No matter how big or small your project is, we can help you get online, get in front of your customers and look great. And we'll have fun while we do it! <a href=\"contact us.html#form1-u\">Contact us</a> today to find out more about our services.</p>",
@@ -1708,7 +1703,12 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1h"
+          "_anchor": "content1-1h",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
         },
         {
           "_styles": {
@@ -1859,7 +1859,7 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
