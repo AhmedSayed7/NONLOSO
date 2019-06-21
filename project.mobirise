@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-27_0456",
-    "currentPage": "portfolio.html",
+    "currentPage": "error.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -25,8 +25,8 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.1",
     "siteFonts": [],
-    "uniqCompNum": 81,
-    "versionPublish": "4.10.1",
+    "uniqCompNum": 84,
+    "versionPublish": "4.10.3",
     "screenshot": "screenshot.png",
     "customCookies": {
       "colorText": "#424a4d",
@@ -44,7 +44,7 @@
     "favicon": "",
     "noImageResize": "",
     "gdpr": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
-    "witsec-form-subject": "Mobirise Form",
+    "witsec-form-subject": "NONLOSO",
     "google-analytics": "",
     "witsec-language": "en"
   },
@@ -689,7 +689,7 @@
       "settings": {
         "meta_descr": "",
         "title": "About",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1000,7 +1000,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Contact Us",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1238,7 +1238,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Services",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1800,7 +1800,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Portfolio",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -2012,6 +2012,53 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-25"
+        }
+      ]
+    },
+    "error.html": {
+      "settings": {
+        "meta_descr": "Site Maker Description",
+        "title": "Error",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-lead": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/paul-280209-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.2"
+          },
+          "title": "Oops! Something went wrong...\n",
+          "text": "The page you're looking for is not available. Please check the URL.\n<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">BACK TO SITE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-2b"
         }
       ]
     }
